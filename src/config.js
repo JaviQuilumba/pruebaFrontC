@@ -1,9 +1,9 @@
 const config = {
-    BASE_URL_AUTH: 'http://localhost:3001/api/auth/login',
+    BASE_URL_AUTH: 'http://68.183.122.93:3001/api/auth/login',
     BASE_URL_REGISTER:'http://localhost:3002/api/users',
     BASE_URL_MOVIES_CREATE: 'http://localhost:3004/api/movies',
     BASE_URL_MOVIES_UPDATE: 'http://localhost:3006/api/movies',
-    BASE_URL_MOVIES: 'http://localhost:3007/api/movies',
+    BASE_URL_MOVIES: 'http://161.35.114.165:3007/api/movies',
     BASE_URL_TEATHER_CREATE:'http://localhost:3008/api/cinemas',
     BASE_URL_TEATHER_DELETE:'http://localhost:3009/api/cinemas',
     BASE_URL_TEATHER_UPDATE: 'http://localhost:3010/api/cinemas',
