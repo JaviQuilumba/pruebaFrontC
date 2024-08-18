@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: rgb(20, 20, 20);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  color: black; 
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin: 10px 0;
+}
+
+input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}

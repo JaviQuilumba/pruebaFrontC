@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.snacks-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.snack-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: left;
+}
+
+.snack-card h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.snack-card p {
+  margin: 5px 0;
+}
+
+.snack-card strong {
+  color: #333;
+}
+
+.snack-card button.edit {
+  background-color: #28a745; /* Green */
+}
+
+.snack-card button.edit:hover {
+  background-color: #218838; /* Darker Green */
+}
+
+.snack-card button.delete {
+  background-color: #dc3545; /* Red */
+}
+
+.snack-card button.delete:hover {
+  background-color: #c82333; /* Darker Red */
+}
+
+.home-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100px; /* Adjust this value as needed */
+  
+}
+
+.home-button {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center; /* Centro horizontalmente */
+  
+}
+
+.home-button button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

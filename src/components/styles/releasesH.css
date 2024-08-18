@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.releases-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .release-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(124, 59, 59, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+  }
+  
+  .release-card h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .release-card p {
+    margin: 5px 0;
+  }
+  
+  .release-card strong {
+    color: #333;
+  }
+

@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .releases-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .release-card {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      padding: 20px;
+      width: 200px;
+      text-align: left;
+    }
+    
+    .release-card h3 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+    
+    .release-card p {
+      margin: 5px 0;
+    }
+    
+    .release-card strong {
+      color: #333;
+    }
+    
+    .release-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    .release-container form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .release-container form label,
+    .release-container form input,
+    .release-container form textarea,
+    .release-container form button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .release-container form button {
+      align-self: center;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  
+    .release-card button.edit {
+      background-color: #28a745; /* Green */
+    }
+    
+    .release-card button.edit:hover {
+      background-color: #218838; /* Darker Green */
+    }
+    
+    .release-card button.delete {
+      background-color: #dc3545; /* Red */
+    }
+    
+    .release-card button.delete:hover {
+      background-color: #c82333; /* Darker Red */
+    }
+  
+    .release-card button.edit,
+  .release-card button.delete {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  

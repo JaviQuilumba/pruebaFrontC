@@ -1,0 +1,77 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+  }
+  
+  .movie-card h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .movie-card p {
+    margin: 5px 0;
+  }
+  
+  .movie-card button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .movie-card button.edit {
+    background-color: #28a745; /* Green */
+  }
+  
+  .movie-card button.edit:hover {
+    background-color: #218838; /* Darker Green */
+  }
+  
+  .movie-card button.delete {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .movie-card button.delete:hover {
+    background-color: #c82333; /* Darker Red */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }

@@ -1,0 +1,48 @@
+
+.comment-list {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;.comment-list {
+  text-align: center;
+  margin: 20px auto;
+  width: 90%; /* Aumentar el ancho al 90% */
+  max-width: 800px; /* Aumentar el ancho máximo */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 15px 0; /* Aumentar el margen entre comentarios */
+  padding: 20px; /* Aumentar el padding para hacer los comentarios más grandes */
+}
+
+small {
+  color: #666;
+}
+
+  }
+  
+  li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  small {
+    color: #666;
+  }
+  

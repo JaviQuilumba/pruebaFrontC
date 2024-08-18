@@ -1,0 +1,31 @@
+/* src/components/styles/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #8d44ad04;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.logout-button {
+  background: #dc3545;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background: #c82333;
+}

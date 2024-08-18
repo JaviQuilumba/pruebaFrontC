@@ -1,0 +1,53 @@
+/* src/styles/add-snack.css */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.add-sala {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-sala h2 {
+    text-align: center;
+  }
+  
+  .add-sala form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-sala label {
+    margin-bottom: 10px;
+  }
+  
+  .add-sala input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .add-sala button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-sala button:hover {
+    background-color: #0056b3;
+  }
+  
