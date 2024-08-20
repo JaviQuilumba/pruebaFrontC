@@ -14,8 +14,6 @@ const config = {
     BASE_URL_SNACK: 'http://localhost:3015/api/snacks',
     BASE_URL_ROOMS: 'http://127.0.0.1:3017/api/rooms',
     BASE_URL_OFFERS: 'http://localhost:8080/index.php',
-
-
   };
   
   export default config;
