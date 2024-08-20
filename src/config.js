@@ -1,5 +1,5 @@
 const config = {
-    BASE_URL_AUTH: 'http://localhost:3001/api/auth/login',
+    BASE_URL_AUTH: 'http://134.209.76.150:3001/api/auth/login',
     BASE_URL_REGISTER:'http://localhost:3002/api/users',
     BASE_URL_MOVIES_CREATE: 'http://localhost:3004/api/movies',
     BASE_URL_MOVIES_UPDATE: 'http://localhost:3006/api/movies',
